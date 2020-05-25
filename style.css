@@ -1,0 +1,166 @@
+html{
+	box-sizing: border-box;
+	font-weight: bold;
+	font-family: tahoma;
+}
+
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.masterhead{
+	background: #2F4F4F;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0	auto;
+	width: 100%;
+	/* left: 0px;
+	bottom: 0px;
+  width: 100%;
+	overflow-y: scroll;
+	*/
+	/* justify-content: space-around; */
+}
+
+.masterhead h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 35px;
+}
+
+.subhead{
+	background: #008B8B;
+	padding: 16px 32px;
+
+}
+
+.subhead p {
+	max-width: 600px;
+	margin:	0	auto;
+	font-weight: bold;
+	padding: 2em 2em;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: tahoma;
+}
+
+/* #relative	{
+	position: relative;
+	top:300px;
+} */
+
+svg {
+	margin: 0 auto;
+	padding: 0 0;
+	justify-content: center;
+	/* width: 900px; */
+	/* border: 5px solid snow; */
+	background: #ADFF2F;
+	border-radius: 30%;
+	position:	fixed;
+	top: 10px;
+	left: 10px;
+  /* width: 100%; */
+	}
+
+svg:hover {
+	background: orange;
+}
+
+.container-1{
+	margin: 30px auto;
+	padding: 0 0;
+	/* margin-left: 330px; */
+	max-width: 500px;
+	color: white;
+	border-top: 2px solid snow;
+}
+
+.container-2{
+	margin: 0 auto;
+	max-width: 620px;
+	color: white;
+	text-align: justify;
+}
+
+.container-3{
+	margin: 0 auto;
+	max-width: 600px;
+	color: black;
+	background: #A9A9A9;
+	padding: 3px 10px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+textarea{
+	border: 10px solid grey;
+	border-radius: 2%;
+	max-width: 600px;
+	column-width: 12px;
+	flex: 1;
+	font-size: 25px;
+}
+
+textarea:hover{
+	border: 10px solid #008B8B;
+}
+
+.text-wrapper{
+	margin: 10px auto;
+	max-width: 600px;
+	/*margin-top: 12px;
+	margin-left: 405px;*/
+	display: flex;
+}
+
+.last-wrapper{
+	/*display: grid;
+	grid-template-columns: 1fr 1fr;*/
+	/*grid-column-gap: 20px;*/
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 10px auto;
+	padding: 0px;
+	height: 250px;
+	max-width: 600px;
+	/*border: 2px	solid black;*/
+}
+
+#timer{
+	width: 220px;
+	/*border: 1px	solid black;*/
+	padding: 15px 2px;
+	text-align: center;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 45px;
+	/*overflow: hidden;*/
+}
+
+
+#reset-button{
+	padding: 20px 2px;
+	border: 10px solid orange;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	font-weight: bold;
+	font-family: tahoma;
+	color: orange;
+}
+
+#reset-button:hover{
+	background: orange;
+	color: white;
+	cursor: default;
+}
